@@ -60,17 +60,17 @@ valores */
 
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', system-ui;
   margin: 0;
 }
 
-h1, 
+h1,
 h2,
 h3,
 h4,
 h5,
 h6{
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Fjalla One', system-ui;
   font-weight: normal;
   /* font-style: italic; */
 }
@@ -81,6 +81,8 @@ h1 {
   letter-spacing: -.2px;
   color: white;
   margin: 0;
+  max-width: 500px;
+
   /* margin: 100px 150px 70px 30px; */
   /* text-transform: uppercase; */
   /* text-decoration: dashed; */
@@ -91,7 +93,7 @@ h1 strong {
 h2 {
   color: #026fff;
   text-transform: uppercase;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', system-ui;
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 40px;
@@ -139,7 +141,7 @@ h2 {
   /* margin: 10px; */
   margin-bottom: 15px;
   /* margin-right
-  margin-left 
+  margin-left
   margin-top */
   padding: 20px;
   background: white;
@@ -157,7 +159,7 @@ h2 {
   font-size: 20px;
 }
 .project strong {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Fjalla One', system-ui;
 }
 /* .project-date {
   margin: 10px 0;
@@ -264,7 +266,7 @@ figure {
 .event-list-title {
   margin-left: 20px;
 }
-.event { 
+.event {
   margin: 1%;
   width: 48%;
   flex-shrink: 0;
@@ -354,8 +356,8 @@ figure {
   margin-top: 10px;
 }
 
-.form-email h3 { 
-  font-family: 'Source Sans Pro', sans-serif;
+.form-email h3 {
+  font-family: 'Source Sans Pro', system-ui;
 }
 
 .container {
@@ -503,7 +505,7 @@ figure {
     width: auto;
     /* font-size: 10px; */
   }
-  .project-course, .project-date, .project-url { 
+  .project-course, .project-date, .project-url {
     margin: .3em 0;
   }
   .project-title {
@@ -585,4 +587,3 @@ figure {
     padding: 2em 1em;
   }
 }
-
