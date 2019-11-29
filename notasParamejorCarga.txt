@@ -1,0 +1,17 @@
+//////////////// Mover los links ////////////////
+
+Para ayudar a una major carga move los links, para no opstruir la carga del html.
+
+ej. [
+  head{
+    <link rel="stylesheet" href="/css/master.css"> se cambia de lugar
+  }
+
+  body{
+    footer{
+      <link rel="stylesheet" href="/css/master.css">
+    }
+  }
+]
+
+//////////////// Mover los links ////////////////
