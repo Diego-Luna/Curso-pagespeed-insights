@@ -15,3 +15,13 @@ ej. [
 ]
 
 //////////////// Mover los links ////////////////
+
+//////////////// Para mejorar la carga hay que comprimir el css ////////////////
+
+Se puede usar : https://csscompressor.com/
+
+o algun preprosesador como Sass, o otros
+
+el archivo comprimido se puede guardar "archivo.min.css"
+
+//////////////// Para mejorar la carga hay que comprimir el css ////////////////
