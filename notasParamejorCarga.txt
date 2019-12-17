@@ -25,3 +25,16 @@ o algun preprosesador como Sass, o otros
 el archivo comprimido se puede guardar "archivo.min.css"
 
 //////////////// Para mejorar la carga hay que comprimir el css ////////////////
+
+//////////////// Critical CSS o Critical Path CSS ////////////////
+Respuesta a:
+Critical CSS o Critical Path CSS
+Critical CSS es método para optimizar la velocidad de carga de las páginas web, en el cual lo que se hace es dividir la carga del CSS en dos etapas.
+
+La primera sección de CSS a ser cargada corresponde a la parte superior de la web, es decir, lo primero que ve el usuario.
+
+Para identificar cual es el Critical CSS se copia todo el código de CSS en siguiente link ="https://jonassebastianohlsson.com/criticalpathcssgenerator/"
+y luego el resultado del scraping del archivo se copia dentro de un tag <style> en la sección <head> de nuestro Código.
+
+El CSS restante (no crítico) se llama posteriormente, al final del <body> por medio de un tag <link> como usualmente se hacía antes de iniciar la optimización del sitio
+//////////////// Critical CSS o Critical Path CSS ////////////////
